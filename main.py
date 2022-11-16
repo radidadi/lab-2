@@ -75,9 +75,9 @@ while (True):
     argument = int(input())
     match argument:
         case 1:
-            (weather_day())
+            weather_day()
         case 2:
-            print(weather_week())
+            weather_week()
         case 3:
             print("Good bey")
             break
